@@ -4,7 +4,7 @@ const config={
     width: 1200,
     height: window.innerHeight,
     parent: 'app',
-    scene: [Finishmain,GameStart,EndPage],
+    scene: [GameStart,EndPage,Finishmain],
     physics: {
         default: 'arcade',
         arcade: {
