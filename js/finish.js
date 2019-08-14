@@ -1,13 +1,13 @@
 const Finishmain={
     key:'finish',
     preload(){
-        this.load.image('bg1', '/f2e5week/../img/Component.png');
-        this.load.image('finishbtn','/f2e5week/../img/endbtn.PNG');
-        this.load.image('success','/f2e5week/../img/m_Nicky_mask.png');
-        this.load.image('planet1', '/f2e5week/../img/Planet.png');
-        this.load.image('planet2', '/f2e5week/../img/Planet2.png');
-        this.load.image('Component1', '/f2e5week/../img/Component4.png');
-        this.load.image('Component2', '/f2e5week/../img/Component10.png');
+        this.load.image('bg1', 'img/Component.png');
+        this.load.image('finishbtn','img/endbtn.PNG');
+        this.load.image('success','img/m_Nicky_mask.png');
+        this.load.image('planet1', 'img/Planet.png');
+        this.load.image('planet2', 'img/Planet2.png');
+        this.load.image('Component1', 'img/Component4.png');
+        this.load.image('Component2', 'img/Component10.png');
     },
     create() {
         //結束畫面圖片配置
