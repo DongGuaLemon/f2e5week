@@ -1,9 +1,9 @@
 const EndPage={
     key:'end',
     preload () {
-        this.load.image('endbtn','../img/endbtn.PNG')
-        this.load.image('Player_fail', '../img/m_Nicky_fail.png');
-        this.load.image('bg1', '../img/Component.png');
+        this.load.image('endbtn','/f2e5week/../img/endbtn.PNG')
+        this.load.image('Player_fail', '/f2e5week/../img/m_Nicky_fail.png');
+        this.load.image('bg1', '/f2e5week/../img/Component.png');
     },
     create() {
         this.endText = this.add.text(400, 200, `Help Nicky Again?`, { fontSize: '65px', fill: '#E2FF65', fontFamily: 'Lobster', fontWeight: 'bold' })

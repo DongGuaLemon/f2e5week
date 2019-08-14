@@ -5,21 +5,21 @@ const GameStart={
     key:'Game',
     //active: true,
     preload () {
-        this.load.image('bg1', '../img/Component.png');
-        this.load.image('Player', '../img/m_Nicky.png');
-        this.load.image('Player_mask', '../img/m_Nicky_mask.png');
-        this.load.image('Player_fail', '../img/m_Nicky_fail.png');
-        this.load.image('stone1', '../img/Stone.png');
-        this.load.image('stone2', '../img/Stone2.png');
-        this.load.image('planet1', '../img/Planet.png');
-        this.load.image('planet2', '../img/Planet2.png');
-        this.load.image('planet3', '../img/Planet4.png');
-        this.load.image('redpoison', '../img/RedPoison.png');
-        this.load.image('bg1', '../img/Component3.png');
-        this.load.image('Component1', '../img/Component4.png');
-        this.load.image('Component2', '../img/Component6.png');
-        this.load.image('Component3', '../img/Component9.png');
-        this.load.image('Component4', '../img/Component10.png');
+        this.load.image('bg1', '/f2e5week/../img/Component.png');
+        this.load.image('Player', '/f2e5week/../img/m_Nicky.png');
+        this.load.image('Player_mask', '/f2e5week/../img/m_Nicky_mask.png');
+        this.load.image('Player_fail', '/f2e5week/../img/m_Nicky_fail.png');
+        this.load.image('stone1', '/f2e5week/../img/Stone.png');
+        this.load.image('stone2', '/f2e5week/../img/Stone2.png');
+        this.load.image('planet1', '/f2e5week/../img/Planet.png');
+        this.load.image('planet2', '/f2e5week/../img/Planet2.png');
+        this.load.image('planet3', '/f2e5week/../img/Planet4.png');
+        this.load.image('redpoison', '/f2e5week/../img/RedPoison.png');
+        this.load.image('bg1', '/f2e5week/../img/Component3.png');
+        this.load.image('Component1', '/f2e5week/../img/Component4.png');
+        this.load.image('Component2', '/f2e5week/../img/Component6.png');
+        this.load.image('Component3', '/f2e5week/../img/Component9.png');
+        this.load.image('Component4', '/f2e5week/../img/Component10.png');
         this.gameStop = false;
         this.monsterArr = [];
         this.monsterArr2 = [];
