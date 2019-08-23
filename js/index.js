@@ -2,7 +2,7 @@
 const config={
     type: Phaser.AUTO,
     width: 1200,
-    height: window.innerHeight,
+    height: 750,
     parent: 'app',
     scene: [GameStart,EndPage,Finishmain],
     physics: {
